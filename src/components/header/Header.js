@@ -12,7 +12,7 @@ const Header = () => {
       setHamburger("true");
     }
   };
-  const scroll = () => {
+  const scrolls = () => {
     const anchor = document.querySelector("#pt");
     anchor.scrollIntoView({ behavior: "smooth", block: "center" });
   };
@@ -70,7 +70,7 @@ const Header = () => {
             <div className={styles.navbar}>
               <ul className={styles.navbarUl}>
                 <li className={styles.navbarItems}>
-                  <Link className={styles.navbarLink} to="/" onClick={scroll}>
+                  <Link className={styles.navbarLink} to="/" onClick={scrolls}>
                     Partnership
                   </Link>
                 </li>
