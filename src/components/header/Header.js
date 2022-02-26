@@ -169,7 +169,7 @@ const Header = () => {
                       <Link
                         className={styles.navbarLink}
                         to="/"
-                        onClick={scroll}
+                        onClick={scrolls}
                       >
                         Partnership
                       </Link>
@@ -214,7 +214,7 @@ const Header = () => {
                       <Link
                         className={styles.navbarLink}
                         to="/"
-                        // onClick={scrollUsage}
+                        onClick={scrollUsage}
                       >
                         GiveAways
                       </Link>
@@ -223,7 +223,7 @@ const Header = () => {
                       <Link
                         className={styles.navbarLink}
                         to="/"
-                        // onClick={scrollUsage}
+                        onClick={scrollT}
                       >
                         Team
                       </Link>
